@@ -1,2 +1,2 @@
 # Jeff_Stimple
-Personal BIO Website
+Personal Bio Website
