@@ -1,5 +1,11 @@
 /* style.css background: #d9ecff */
 
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
