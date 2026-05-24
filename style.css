@@ -3,7 +3,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #E6EBEB;
+  background: #E6EBEB /* grey */;
   overflow: auto;
 }
 
