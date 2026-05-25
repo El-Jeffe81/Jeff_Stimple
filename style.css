@@ -13,8 +13,6 @@ body {
   overflow: auto;
 }
 
-<style>
-  .center {
+.center {
     text-align: center;
   }
-</style>
