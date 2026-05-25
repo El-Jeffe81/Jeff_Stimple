@@ -8,6 +8,23 @@
 
 /*list-style: none;*/
 
+
+.top-nav {
+  margin-bottom: 30px;
+}
+
+.top-nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+.top-nav a:hover {
+  color: #66ccff;
+}
+
+
 .social-links img {
     width: 40px;
     height: 40px;
