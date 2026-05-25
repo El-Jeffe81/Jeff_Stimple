@@ -48,7 +48,7 @@ body {
   min-height: 100vh;
 
   /* background-image: url('photos/black_background.jpg'); dark background */
-   background-image: url('photos/light_background.jpg'); light background
+   background-image: url('photos/light_background.png'); light background
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
