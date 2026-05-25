@@ -1,15 +1,15 @@
 /* style.css background: #d9ecff */
 
 .container {
-  max-width: 90px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 20px;
 }
 
-list-style: none;
+/*list-style: none;*/
 
 .social-links img {
-    width: 20px !important;
+    width: 40px !important;
     height: 40px;
     margin: 10px;
     transition: 0.2s;
