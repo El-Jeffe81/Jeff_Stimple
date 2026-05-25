@@ -18,28 +18,24 @@ fetch("./tools/nav_bar.html")
 // FOOTER
 fetch("./tools/default_footer.html")
   .then(response => response.text())
-  .then(data => {
+  .then(html => {
 
-    console.log("Footer loaded");
+    document.getElementById("default_footer").innerHTML = html;
 
-    document.getElementById("default_footer").innerHTML = data;
+    // NOW guarantee DOM is updated before continuing
+    const versionEl = document.getElementById("version");
 
-    return fetch(
-      "https://api.github.com/repos/El-Jeffe81/Jeff_Stimple/commits/main"
-    );
+    return fetch("https://api.github.com/repos/El-Jeffe81/Jeff_Stimple/commits/main")
+      .then(res => res.json())
+      .then(data => {
 
-  })
-  .then(res => res.json())
-  .then(data => {
+        if (versionEl) {
+          versionEl.textContent = data.sha.substring(0, 7);
+        }
 
-    console.log(data);
-
-    document.getElementById("version").textContent =
-      data.sha.substring(0, 7);
+      });
 
   })
   .catch(error => {
-
     console.log("ERROR:", error);
-
   });
