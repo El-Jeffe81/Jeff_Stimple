@@ -21,7 +21,7 @@ background-image: url('photos/black_background.jpg');
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #E6EBEB /* grey */;
+  background: #E6EBEB ;
   overflow: auto;
 }
 */
