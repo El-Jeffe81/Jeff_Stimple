@@ -1,3 +1,5 @@
   Main site, work related professional bio. Profile Pic
 About Me link to seperate site,more personal, hobbies, etc. still professional maybe some pictures?
 Gallery site?
+
+More readable background?
