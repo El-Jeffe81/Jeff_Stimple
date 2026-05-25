@@ -5,14 +5,27 @@
   margin: 0 auto;
   padding: 20px;
 }
+ 
+/*black background */
+background-image: url('photos/black_background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+/* grey plain background
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   background: #E6EBEB /* grey */;
   overflow: auto;
 }
-
+*/
 .center {
     text-align: center;
   }
+
