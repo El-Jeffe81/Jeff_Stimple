@@ -1,13 +1,13 @@
 /* script.js */
 
-fetch("tools/nav_bar.html")
+fetch("./tools/nav_bar.html")
   .then(response => response.text())
   .then(data => {
     document.getElementById("navbar").innerHTML = data;
   });
 
 
-fetch("tools/version.html")
+fetch("./tools/version.html")
   .then(response => response.text())
   .then(data => {
     document.getElementById("version").innerHTML = data;
