@@ -20,10 +20,10 @@ fetch("./tools/default_footer.html")
   .then(response => response.text())
   .then(data => {
 
-    // inject footer HTML first
+    console.log("Footer loaded");
+
     document.getElementById("default_footer").innerHTML = data;
 
-    // THEN fetch GitHub version
     return fetch(
       "https://api.github.com/repos/El-Jeffe81/Jeff_Stimple/commits/main"
     );
@@ -32,13 +32,14 @@ fetch("./tools/default_footer.html")
   .then(res => res.json())
   .then(data => {
 
+    console.log(data);
+
     document.getElementById("version").textContent =
       data.sha.substring(0, 7);
 
   })
-  .catch(() => {
+  .catch(error => {
 
-    document.getElementById("version").textContent =
-      "unknown";
+    console.log("ERROR:", error);
 
   });
