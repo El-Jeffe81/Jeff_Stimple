@@ -14,7 +14,7 @@
 }
 
 .top-nav a {
-  color: grey;
+  color: white;
   text-decoration: none;
   margin: 0 15px;
   font-size: 18px;
@@ -54,7 +54,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 
-  color: white;
+  color: red;
   font-family: Arial, sans-serif;
   text-align: center;
 }
