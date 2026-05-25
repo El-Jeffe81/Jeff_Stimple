@@ -8,6 +8,13 @@
 
 /*list-style: none;*/
 
+.prof_pics img {
+    width: 160px;
+    height: 160px;
+    margin: 40px;
+    transition: 0.2s;
+}
+
 
 .top-nav {
   margin-bottom: 30px;
