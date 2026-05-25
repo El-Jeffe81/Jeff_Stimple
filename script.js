@@ -17,9 +17,11 @@ fetch("https://api.github.com/repos/El-Jeffe81/Jeff_Stimple/commits/main")
   .catch(() => {
     document.getElementById("version").textContent = "unknown";
   });
-
+<!--
 fetch("./tools/version.html")
   .then(response => response.text())
   .then(data => {
     document.getElementById("default_footer").innerHTML = data;
-  });
+  }); -->
+
+  
