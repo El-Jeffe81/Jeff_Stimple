@@ -15,7 +15,7 @@ fetch("https://api.github.com/repos/El-Jeffe81/Jeff_Stimple/commits/main")
   });
 
   .catch(() => {
-    document.getElementById("version").textContent = "unknown";
+    document.getElementById("default_footer").textContent = "unknown";
   });
 
 fetch("./tools/version.html")
