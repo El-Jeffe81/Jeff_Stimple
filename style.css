@@ -6,6 +6,8 @@
   padding: 20px;
 }
 
+list-style: none;
+
 .social-links img {
     width: 40px;
     height: 40px;
