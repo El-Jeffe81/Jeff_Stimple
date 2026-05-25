@@ -1,6 +1,6 @@
 /* script.js */
 <script>
-fetch("https://api.github.com/repos/YOURUSERNAME/YOURREPO/commits/main")
+fetch("https://api.github.com/repos/El-Jeffe81/Jeff_Stimple/commits/main")
   .then(res => res.json())
   .then(data => {
     document.getElementById("version").textContent =
