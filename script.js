@@ -1,7 +1,13 @@
 /* script.js */
 
-/* script.js */
+// Socials bar
+fetch("./tools/social_bar.html")
+  .then(response => response.text())
+  .then(data => {
 
+    document.getElementById("social-bar").innerHTML = data;
+
+  });
 
 // NAVBAR
 fetch("./tools/nav_bar.html")
