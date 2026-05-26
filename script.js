@@ -5,7 +5,7 @@ fetch("./tools/social_bar.html")
   .then(response => response.text())
   .then(data => {
 
-    document.getElementById("social-bar").innerHTML = data;
+    document.getElementById("socials-bar").innerHTML = data;
 
   });
 
