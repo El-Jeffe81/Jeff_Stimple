@@ -86,9 +86,15 @@ body {
 
 /* for mobile display */
 @media (max-width: 768px) {
+
   body {
     background-image: url('photos/light_background_mobile.png');
   }
+
+  .container {
+    padding: 15px;
+  }
+
 }
 
 /* grey plain background
