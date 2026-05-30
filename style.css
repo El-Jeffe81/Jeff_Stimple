@@ -74,14 +74,18 @@ body {
   /* background-image: url('photos/black_background.jpg');*/ /*dark background */
    background-image: url('photos/light_background.png'); /* light background */
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+
+  /* IMPORTANT for mobile */
+  background-attachment: scroll;
 
   color: black;
   font-family: Arial, sans-serif;
   text-align: center;
 }
+
 /* grey plain background
 body {
   margin: 0;
