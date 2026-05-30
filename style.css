@@ -87,12 +87,19 @@ body {
 /* for mobile display */
 @media (max-width: 768px) {
 
-  body {
+   body {
     background-image: url('photos/light_background_mobile.png');
   }
 
-  .container {
+   .container {
     padding: 15px;
+  }
+
+   .prof_pics img {
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
   }
 
 }
