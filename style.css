@@ -91,7 +91,7 @@ body {
 @media (max-width: 768px) {
 
    body {
-    background-image: url('photos/light_background_mobile.png');
+    background-image: url('photos/light_background.png');
   }
 
    .container {
